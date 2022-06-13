@@ -170,7 +170,9 @@ public class PLSP_ReserveDroneAI implements ShipAIPlugin {
 	}
 
 	@Override
-	public void setDoNotFireDelay(float amount) {}
+	public void setDoNotFireDelay(float amount) {
+		doNotAttack = amount;
+	}
 
 	@Override
 	public void forceCircumstanceEvaluation() {}

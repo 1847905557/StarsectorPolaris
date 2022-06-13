@@ -67,8 +67,9 @@ public class PLSP_ClusterAddition extends BaseHullMod {
 		}
 
 		if (!ship.getVariant().hasHullMod("PLSP_clustermodulator")) return;
+		if (shipsMapBase == null || !shipsMapBase.containsKey(ship)) return;
 
-		if (!shipsMap.containsKey(ship) && shipsMapBase.containsKey(ship)) {
+		if (!shipsMap.containsKey(ship)) {
 			shipsMap.put(ship, new ModulatorAdditionState(ship));
 		} else {
 			ModulatorAdditionState data = shipsMap.get(ship);

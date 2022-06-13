@@ -17,11 +17,11 @@ public class PLSP_MAData {
 	public static final String SPOT_SKILL_ID = "PLSP_spot_resilience";
 
 	public static final String NORMAL_EXPERIENCE_ID = "PLSP_MA_normalExperience";
-	public static final int NORMAL_EXPERIENCE_COST = 65000;
+	public static final int NORMAL_EXPERIENCE_COST = 85000;
 	public static final int NORMAL_EXPERIENCE_TIME = 10;
 	public static final String SPOT_EXPERIENCE_ID = "PLSP_MA_spotExperience";
 	public static final String SPOT_EXPERIENCE_SKILL = "PLSP_spot_resilience";
-	public static final int SPOT_EXPERIENCE_COST = 250000;
+	public static final int SPOT_EXPERIENCE_COST = 300000;
 	public static final int SPOT_EXPERIENCE_ALPHA_COST = 1;
 	public static final int SPOT_EXPERIENCE_TIME = 30;
 

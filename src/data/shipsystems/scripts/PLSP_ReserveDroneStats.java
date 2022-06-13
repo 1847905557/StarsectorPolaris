@@ -32,8 +32,8 @@ public class PLSP_ReserveDroneStats extends BaseShipSystemScript {
 
 			Vector2f point = slot.computePosition(ship);
 			ShipAPI newShip = manager.spawnShipOrWing("PLSP_subobject_wing", point, ship.getFacing(), 0f);
-			newShip.setCRAtDeployment(1f);
-			newShip.setCurrentCR(1f);
+			newShip.setCRAtDeployment(ship.getCurrentCR());
+			newShip.setCurrentCR(ship.getCurrentCR());
 			newShip.setOwner(ship.getOwner());
 			newShip.setOriginalOwner(ship.getOwner());
 			newShip.setCollisionClass(CollisionClass.FIGHTER);
